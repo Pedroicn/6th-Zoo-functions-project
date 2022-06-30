@@ -45,7 +45,7 @@ describe('Testes da função HandlerElephants', () => {
     expect(handlerElephants(5)).toEqual("Parâmetro inválido, é necessário uma string");
   })
 
-  it('Verifica se retorna undefined quando nenhum parametro é passado', () => { 
+  it('Verifica se retorna undefined quando nenhum parametro é passado!', () => { 
     expect(handlerElephants()).toBeUndefined();
   })
 
