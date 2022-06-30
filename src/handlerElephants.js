@@ -32,5 +32,5 @@ const handlerElephants = (param) => {
   }
   return computeData(param, elephants);
 };
-
-module.exports = handlerElephants;
+console.log(handlerElephants('sdfsd'))
+module.exports = {handlerElephants, getElephants};
