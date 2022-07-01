@@ -1,4 +1,4 @@
-const { handlerElephants } = require('../src/handlerElephants');
+const handlerElephants = require('../src/handlerElephants');
 
 describe('Testes da função HandlerElephants', () => {
   it('Verifica a quantidade de elefantes quando passado o parametro count', () => {
