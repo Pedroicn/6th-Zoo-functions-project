@@ -20,7 +20,7 @@ describe('Testes da função HandlerElephants', () => {
     expect(handlerElephants('popularity')).toEqual(5);
   });
 
-  it('Verifica se retorna um array com a relação de dias em que é possível visitar os elefantes', () => {
+  it('Verifica se retorna um array com a relação de dias em que é possível visitar os elefantes.', () => {
     expect(handlerElephants('availability')).toEqual(['Friday', 'Saturday', 'Sunday', 'Tuesday']);
   });
 
